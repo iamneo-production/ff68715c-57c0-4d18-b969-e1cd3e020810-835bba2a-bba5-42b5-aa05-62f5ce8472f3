@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #92dd99;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 79px;
+  
+}
+
+.logo {
+  
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: rgb(255, 254, 254);
+  
+}
+
+.actions {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+}
+
+.actions li {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  margin-left: 0;
+}
+
+/* Add this CSS to align "Welcome" message in the same row */
+.actions p {
+  margin: 0; /* Remove margin for the "Welcome" message */
+  margin-left: 10px; /* Add margin to separate it from the previous element */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}

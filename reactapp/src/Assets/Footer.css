@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.footer {
+  background-color: #92dd99;
+  color: rgb(6, 6, 6);
+  width: 100%;
+  min-height: 165px;
+  
+  left: 0;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0px 20px;
+  text-align: center;
+  font-style: oblique;
+  margin-top: 2%;
+  
+}
+
+h3 {
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+
+.social-icons a {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}

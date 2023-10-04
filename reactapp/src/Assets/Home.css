@@ -1,0 +1,36 @@
+/* Navbar.css */
+
+.container {
+  max-width: 1200px;
+  margin-top: 5%;
+  margin-left: 10%;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+  color: black;
+}
+
+/* Style the images to display two per row (adjust as needed) */
+img {
+  width: 400px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  display: inline-block;
+  margin: 7%; /* Add some space between images */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Clear any float after every 2 images */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Add more CSS styles as needed for additional customization */

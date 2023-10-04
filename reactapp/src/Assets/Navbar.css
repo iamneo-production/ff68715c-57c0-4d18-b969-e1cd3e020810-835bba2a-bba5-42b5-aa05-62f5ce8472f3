@@ -1,0 +1,62 @@
+/* Your existing CSS */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9%;
+  }
+  
+  .featured-products h2{
+    font-weight: bold;
+    color: #100f0f;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+
+  .product-card {
+   
+    text-align: center;
+    
+    /*transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;*/
+    cursor: pointer;
+  }
+  .product-image {
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    object-fit: contain;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #100f0f;
+  }
+  
+  /* Hover effect styles 
+  .product-card:hover {
+    background-color: #434c47;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }*/
+  
+  .product-card:hover h3 {
+    color: #04da6f;
+  }
+  
+  .product-card:hover p {
+    color: #555;
+  }

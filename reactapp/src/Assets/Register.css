@@ -1,0 +1,42 @@
+.gugan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080808;
+  min-height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/027/533/552/small/empty-wood-table-top-with-supermarket-blurred-background-for-product-display-photo.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.login-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px; /* Adjust the padding as needed */
+  border: 1px solid #ffffff;
+  background-color: #f9f8f8;
+  border-radius: 9px;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(30, 194, 74, 0.1);
+}
+
+.login-box1 input {
+  width: 100%; /* Change width to 100% to fill the container */
+  padding: 10px; /* Adjust the padding as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border: 1px solid #080808;
+  border-radius: 3px;
+}
+
+.but {
+  width: 100%; /* Change width to 100% to fill the container */
+  padding: 10px;
+  background-color: #00bbff;
+  color: #fff;
+  border: none;
+  border-radius: 33px;
+  cursor: pointer;
+}
